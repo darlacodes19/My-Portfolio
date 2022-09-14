@@ -1,0 +1,23 @@
+.nav-container {
+  margin: 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
+
+}
+
+.nav-item {
+  list-style: none;
+  margin-right: 2rem;
+}
+
+.nav-item:first-child {
+  margin-right: auto;
+  margin-left: 2rem;
+}
+
+.landing-container {
+  background-color: #BBCABB;
+  height: 100vh;
+}
