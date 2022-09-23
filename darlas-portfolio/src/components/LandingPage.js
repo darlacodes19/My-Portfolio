@@ -2,7 +2,7 @@ const LandingPage = () => {
 
     return (
       <div className="landing-container">
-            <h1 className="landing-name"> Darlene Matos </h1>
+            <h3 className="landing-name"> Hi, I'm Darlene </h3>
             <h2 className="landing-title"> Front-End Developer</h2>
             <div class="custom-shape-divider-bottom-1663259355">
     <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
