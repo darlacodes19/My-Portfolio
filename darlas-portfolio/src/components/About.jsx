@@ -8,17 +8,17 @@ const About = () => {
         </div>
         <div className="my-skills"> 
            <h2> Skills</h2>
-           <img src={require('../assets/html.png')} alt = 'HTML icon'/> 
+           <img src={require('../assets/html.png')} alt = 'HTML icon' className='skills-icon'/> 
            <p> HTML5 </p>
-           <img src={require('../assets/CSS.png')} alt = 'Cascading Style Sheet' /> 
+           <img src={require('../assets/CSS.png')} alt = 'Cascading Style Sheet' className='skills-icon'/> 
 
-           <img src={require('../assets/javaScript.png')}  alt = 'JavaScript icon'/> 
+           <img src={require('../assets/javaScript.png')}  alt = 'JavaScript icon' className='skills-icon'/> 
 
-           <img src={require('../assets/react.png')} alt = 'React icon' /> 
-           <img src={require('../assets/express.png')} alt= 'Express icon'/> 
-           <img src={require('../assets/mongoDB.png')} alt = 'MongoDB icon' /> 
-           <img src={require('../assets/git.png')} alt= 'Git icon'/> 
-           <img src={require('../assets/github.png')} alt = 'GitHub icon' /> 
+           <img src={require('../assets/react.png')} alt = 'React icon' className='skills-icon' /> 
+           <img src={require('../assets/express.png')} alt= 'Express icon' className='skills-icon'/> 
+           <img src={require('../assets/mongoDB.png')} alt = 'MongoDB icon' className='skills-icon' /> 
+           <img src={require('../assets/git.png')} alt= 'Git icon' className='skills-icon'/> 
+           <img src={require('../assets/github.png')} alt = 'GitHub icon' className='skills-icon' /> 
 
         </div>
            

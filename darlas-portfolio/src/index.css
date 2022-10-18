@@ -96,6 +96,10 @@ body{
   display: flex;
 }
 
+.skills-icon {
+  width: 70px;
+}
+
 .custom-shape-divider-bottom-1665102284 {
   position: absolute;
   bottom: 50;
@@ -117,6 +121,8 @@ body{
   /* fill: #DFCAD6; */
   fill: red;
 }
+
+
 
 
 /* Projects section  */
