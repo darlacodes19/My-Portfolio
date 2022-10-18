@@ -8,10 +8,17 @@ const About = () => {
         </div>
         <div className="my-skills"> 
            <h2> Skills</h2>
-           <img src={require('../assets/html.png')} /> 
+           <img src={require('../assets/html.png')} alt = 'HTML icon'/> 
            <p> HTML5 </p>
+           <img src={require('../assets/CSS.png')} alt = 'Cascading Style Sheet' /> 
 
-           <img src={require('../assets/javaScript.png')} /> 
+           <img src={require('../assets/javaScript.png')}  alt = 'JavaScript icon'/> 
+
+           <img src={require('../assets/react.png')} alt = 'React icon' /> 
+           <img src={require('../assets/express.png')} alt= 'Express icon'/> 
+           <img src={require('../assets/mongoDB.png')} alt = 'MongoDB icon' /> 
+           <img src={require('../assets/git.png')} alt= 'Git icon'/> 
+           <img src={require('../assets/github.png')} alt = 'GitHub icon' /> 
 
         </div>
            
