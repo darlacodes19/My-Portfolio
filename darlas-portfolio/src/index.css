@@ -107,11 +107,29 @@ body{
   margin-left: 80px;
 }
 
+.about-me-header {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
 .my-skills {
   /* border: 2px solid red; */
   margin-left:190px;
 
 }
+
+.skills-header {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 150px);
+  grid-template-rows: repeat(2, 130px);
+}
+
+
 
 .custom-shape-divider-bottom-1665102284 {
   position: absolute;
