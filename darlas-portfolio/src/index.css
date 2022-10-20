@@ -92,12 +92,25 @@ body{
 
 .about-section {
   background-color: #344341;
-  /* height: 100vh; */
+  height: 80vh;
   display: flex;
+  /* border: 2px solid blue; */
 }
 
 .skills-icon {
   width: 70px;
+}
+
+.about-me {
+  /* border: 2px solid red; */
+  width: 40%;
+  margin-left: 80px;
+}
+
+.my-skills {
+  /* border: 2px solid red; */
+  margin-left:190px;
+
 }
 
 .custom-shape-divider-bottom-1665102284 {
