@@ -92,8 +92,8 @@ body{
 
 .about-section {
   background-color: #344341;
-  height: 80vh;
   display: flex;
+  height: 90vh;
   /* border: 2px solid blue; */
 }
 
@@ -130,28 +130,28 @@ body{
 }
 
 
-
-.custom-shape-divider-bottom-1665102284 {
+.about-section-wave {
   position: absolute;
-  bottom: 50;
+  bottom: -707px;
   left: 0;
   width: 100%;
   overflow: hidden;
   line-height: 0;
 }
 
-.custom-shape-divider-bottom-1665102284 svg {
+.about-section-wave svg {
   position: relative;
   display: block;
-  width: calc(133% + 1.3px);
-  height: 245px;
-  transform: rotateY(180deg);
+  width: calc(151% + 1.3px);
+  height: 338px;
 }
 
-.custom-shape-divider-bottom-1665102284 .shape-fill {
-  /* fill: #DFCAD6; */
-  fill: red;
+.about-section-wave  .shape-fill {
+  fill: #dfcad6 ;
 }
+
+
+
 
 
 
@@ -161,3 +161,34 @@ body{
 .project-section {
   height: 100vh;
 }
+
+
+.project-section-wave{
+  position: absolute;
+  bottom: -1493px;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+
+.project-section-wave svg {
+  position: relative;
+  display: block;
+  width: calc(151% + 1.3px);
+  height: 338px;
+}
+
+.project-section-wave  .shape-fill {
+  fill: #a3b18a ;
+}
+
+
+/* Contact Section */
+
+.contact-section {
+  background-color: #a3b18a;
+  height: 60vh;
+}
+
