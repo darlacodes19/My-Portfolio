@@ -2,7 +2,23 @@ const Contact = () => {
 
     return (
       <div className="contact-section">
-           <p> This is the Contact section </p>
+           <h2 className="contact-form-header"> Let's Connect ! </h2>
+
+       <div className="form"> 
+           <form className="contact-form"> 
+             <div className="contact-form-div"> 
+              <input placeholder="first name" ></input> 
+              <input placeholder="last name"></input> 
+             </div>
+             <input placeholder="email" id="email"></input> 
+             <input placeholder="subject" id="subject"></input> 
+             <input placeholder="message" id="message"></input> 
+             
+           
+           </form>
+           </div>
+
+       
       </div>
     )
 
