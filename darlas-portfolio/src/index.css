@@ -189,6 +189,42 @@ body{
 
 .contact-section {
   background-color: #a3b18a;
-  height: 60vh;
+  height: 80vh;
+  margin: 0 auto;
+}
+
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form-header {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 50px;
+}
+
+.contac-form-div {
+  display: flex;
+  flex-direction: row;
+}
+
+#message {
+  width: 500px;
+  height: 300px;
+}
+
+#email{
+  width: 500px;
+}
+
+#subject {
+  width: 500px;
+}
+
+.form {
+  margin: 0 auto;
+  width: 35%;
 }
 
