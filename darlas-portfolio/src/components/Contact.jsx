@@ -7,7 +7,7 @@ const Contact = () => {
        <div className="form"> 
            <form className="contact-form"> 
              <div className="contact-form-div"> 
-              <input placeholder="first name" ></input> 
+              <input placeholder="first name" className="first-name-input" ></input> 
               <input placeholder="last name"></input> 
              </div>
              <input placeholder="email" id="email"></input> 

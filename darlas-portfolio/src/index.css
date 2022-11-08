@@ -208,6 +208,12 @@ body{
 .contac-form-div {
   display: flex;
   flex-direction: row;
+
+}
+
+.first-name-input {
+  margin-right: 100px;
+  margin-bottom: 10px;
 }
 
 #message {
@@ -217,10 +223,12 @@ body{
 
 #email{
   width: 500px;
+  margin-bottom: 10px;
 }
 
 #subject {
   width: 500px;
+  margin-bottom: 10px;
 }
 
 .form {
