@@ -1,7 +1,7 @@
 const Header = () => {
 
     return (
-        <navbar className="nav-container">
+        <nav className="nav-container">
 
 
             <li className="nav-item"> DM </li>
@@ -11,7 +11,7 @@ const Header = () => {
             <button className="nav-item call-to-action"> Contact </button>
 
 
-        </navbar>
+        </nav>
     )
 
 }
