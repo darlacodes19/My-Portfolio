@@ -160,6 +160,7 @@ body{
 
 .project-section {
   height: 100vh;
+  background-color: #344341;
 }
 
 
@@ -188,7 +189,7 @@ body{
 /* Contact Section */
 
 .contact-section {
-  background-color: #a3b18a;
+  background-color: #344341;
   height: 80vh;
   margin: 0 auto;
 }

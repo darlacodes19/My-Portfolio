@@ -1,5 +1,6 @@
 import { useRef } from "react";
 import emailjs from '@emailjs/browser';
+import Sucess from "./Sucess";
 
 const Contact = () => {
 
@@ -12,6 +13,7 @@ const Contact = () => {
     emailjs.sendForm(`${process.env.REACT_APP_MY_SERVICE_ID}`, `${process.env.REACT_APP_MY_TEMPLATE_ID}`, form.current, `${process.env.REACT_APP_MY_PUBLIC_KEY}`)
       .then((result) => {
           console.log(result.text);
+          <Sucess />
           
       }, (error) => {
           console.log(error.text);
