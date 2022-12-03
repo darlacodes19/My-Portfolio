@@ -1,3 +1,6 @@
+// import { NavLink } from "react-router-dom"
+import { HashLink as Link } from 'react-router-hash-link';
+
 const Header = () => {
 
     return (
@@ -5,13 +8,25 @@ const Header = () => {
 
 
             <li className="nav-item"> DM </li>
-            <li className="nav-item"> Home </li>
-            <li className="nav-item"> About </li>
+            <Link to={"/"}> 
+            <li className="nav-item"> 
+            Home 
+            </li>
+
+            </Link>
+         
+            <Link to={".about-section"}> 
+            <li className="nav-item">
+               About  </li> 
+            </Link>
             <li className="nav-item"> Projects</li>
             <button className="nav-item call-to-action"> Contact </button>
 
 
         </nav>
+
+
+
     )
 
 }

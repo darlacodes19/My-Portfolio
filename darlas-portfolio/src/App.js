@@ -5,7 +5,7 @@ import Contact from "./components/Contact"
 import LandingPage from "./components/LandingPage"
 import Projects from "./components/Projects"
 
-import Header from "./components/Header"
+// import Header from "./components/Header"
 import Layout from './Layout'
 import './App.css'
 
