@@ -14,10 +14,9 @@ function App() {
   return (
     <BrowserRouter> 
     <div className="App">
-      {/* <Header />
-      <Layout />  */}
+      
 
-      <Header /> 
+     
       <Layout />
     
         <Routes>
