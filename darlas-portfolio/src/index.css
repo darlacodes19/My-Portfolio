@@ -38,6 +38,11 @@ body{
   width: 100px;
   background-color: #a3b18a;
   border: none;
+  
+}
+
+.call-to-action:hover {
+  cursor: pointer;
 }
 
 .landing-container {
