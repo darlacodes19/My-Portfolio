@@ -13,6 +13,11 @@ body{
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  /* z-index: 1; */
 
 
 }
@@ -36,7 +41,7 @@ body{
   margin-left: 5rem;
 
   font-size: 20px;
-  color: #344341;
+  color: black;
 }
 
 .call-to-action{
