@@ -18,18 +18,24 @@ body{
 }
 
 .nav-item {
+  
   font-family: 'Abril Fatface', cursive;
   font-size: 20px;
   list-style: none;
+  text-decoration: none;
   margin-top: 30px;
   margin-right: 4rem;
+  color: black;
+  
 }
+
+
 
 .nav-item:first-child {
   margin-right: auto;
   margin-left: 5rem;
 
-  font-size: 25px;
+  font-size: 20px;
   color: #344341;
 }
 
@@ -38,6 +44,7 @@ body{
   width: 100px;
   background-color: #a3b18a;
   border: none;
+  margin-right: 15px;
   
 }
 
