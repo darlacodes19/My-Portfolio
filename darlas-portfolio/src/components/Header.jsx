@@ -25,8 +25,9 @@ const Header = () => {
             <li > Projects</li>
             </Link>
             <Link to="#contact-section" smooth> 
-            <button className="nav-item call-to-action"> Contact </button>
+            <li className="nav-item"> Contact </li>
             </Link>
+            <button className="call-to-action"> RESUME </button>
 
 
         </nav>
