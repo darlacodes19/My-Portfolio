@@ -6,21 +6,27 @@ const Header = () => {
     return (
         <nav className="nav-container">
 
-
-            <li className="nav-item"> DM </li>
-            <Link to={"/"}> 
+            <Link to="#home" smooth className="nav-item"> 
+            <li > DM </li>
+            </Link>
+            {/* <Link to="#home" smooth> 
             <li className="nav-item"> 
             Home 
             </li>
 
-            </Link>
+            </Link> */}
          
-            <Link to={".about-section"}> 
-            <li className="nav-item">
+            <Link to="#about" smooth className="nav-item"> 
+            <li>
                About  </li> 
             </Link>
-            <li className="nav-item"> Projects</li>
+
+            <Link to="#project-section" smooth className="nav-item"> 
+            <li > Projects</li>
+            </Link>
+            <Link to="#contact-section" smooth> 
             <button className="nav-item call-to-action"> Contact </button>
+            </Link>
 
 
         </nav>
